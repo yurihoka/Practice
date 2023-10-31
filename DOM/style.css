@@ -1,0 +1,31 @@
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+button {
+  margin: 0 20px;
+  border-radius: 50%;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  -webkit-box-shadow: 0 5px 0 #6b6a68;
+  box-shadow: 0 5px 0 #6b6a68;
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+  -webkit-box-shadow: 0 2px 0 #6b6a68;
+  box-shadow: 0 2px 0 #6b6a68;
+}
+
+@media screen and (max-width: 480px) {
+  button {
+    display: block;
+    margin: 20px auto;
+  }
+}
