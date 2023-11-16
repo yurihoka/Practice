@@ -13,7 +13,7 @@ const student = {
   name: "Daniel",
   age: 24,
   college: "CICCC",
-  rollNumber: 00,
+  rollNumber: 1000,
 };
 
 for (const property in student) {
